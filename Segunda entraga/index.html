@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0", user-scalable= no"/>
+    <title>Portafolio-OCP</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="general-divition">
+        <div id="profile-background"> 
+            <img class="background-image" src="imagen-fondo.jpg">
+         </div>
+        <div id="info"> 
+            <div id="info-img">
+                <img class="profile-image" src="imagen-perfil.png" alt=" Olayer Cortés Pérez">
+            </div>
+            <div id="info-data">
+                <div>
+                    <h1>Olayer P. E. Cortés Pérez</h1>
+                    <div class="descript" id="info-inicial"> Desarrollador Web Full Stack</div>
+                    <div class="descript" id="info-lugar"> El Bolsón, Río Negro (Argentina)</div>
+                    <div> <button type="button" class="btn btn-dark">Tengo interés en</button>
+                            <button type="button" class="btn btn-dark">Añadir sencción</button>
+                            <button type="button" class="btn btn-dark">Más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="general-divition" id="description">
+        <h2 id="box-inline">Acerca de</h2>
+        <div class="btn-edit" id="box-inline" onclick="cambiarParrafo()"> 
+            <a href="#" class="btn-right">
+                <i class="bi bi-pen-fill"></i>
+            </a>
+        </div>
+        <div> 
+            <p id="editable-text"> Descripción general de la experiencia (lugar, año, etc).</p>
+        </div>
+        <div>
+            <input id="here-changer" type="text" oninput="myFunction2(this.value)" style="display:none">
+        </div>
+    </div>
+
+    <div class="general-divition" id="experience">
+        <h2>Experiencia</h2>
+        <div>
+            <h3>Nombre de una experiencia x</h3>
+            <div> <p> Descripción general de la experiencia (lugar, año, etc).</p></div>
+        </div>
+        <div>
+            <h3>Nombre de una experiencia y</h3>
+            <div><p> Descripción general de la experiencia (lugar, año, etc).</p></div>
+        </div>
+        <div>
+            <h3>Nombre de una experiencia z</h3>
+            <div><p> Descripción general de la experiencia (lugar, año, etc).</p></div>
+        </div>
+    </div>
+
+    <div class="general-divition" id="education">
+        <h2>Educación</h2>
+        <div>
+            <h3>Nombre de la instancia de formación x</h3>
+            <div><p> Descripción general de la experiencia (lugar, año, etc).</p></div>
+        </div>
+        <div>
+            <h3>Nombre de la instancia de formación y</h3>
+            <div><p> Descripción general de la experiencia (lugar, año, etc).</p></div>
+        </div>
+        <div>
+            <h3>Nombre de la instancia de formación z</h3>
+            <div><p> Descripción general de la experiencia (lugar, año, etc).</p></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
